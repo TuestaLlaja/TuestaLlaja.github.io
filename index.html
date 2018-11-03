@@ -1,0 +1,99 @@
+<!DOCTYPE html5>
+<html>
+
+<head>
+    <title>Tokyo</title>
+    <link rel="icon" type="image/ico" href="/descarga.ico">
+    <link href="https://fonts.googleapis.com/css?family=K2D" rel="stylesheet">
+    <style>
+        *{
+            font-family:'K2D', sans-serif; 
+        }  
+        img{
+            float: left;
+            width:30%;
+            border-radius: 0.8em;
+            display: inline;
+            margin-left:1em;
+            margin-right: 1em;        
+        }
+        @media (max-width: 350px){
+            img{
+                width:5em;
+                border-radius: 0.2em;
+            }
+        }  
+        div{
+            margin: 3%;
+        }
+        div.centro{
+            text-align:center !important; 
+        }
+        
+   
+    </style>
+</head>
+
+<body>
+    <div><img src="tokio.jpg" alt="photo tokio">
+    </div>
+    <div id="titulo" class="centro"><b>What can you do at Tokyo</b></div>
+
+    <div>
+        <p>Tokyo (東京, Tōkyō) is Japan's capital and the world's most populous metropolis. It is also one of Japan's 47
+            prefectures, consisting of 23 central city wards and multiple cities, towns and villages west of the city
+            center. The Izu and Ogasawara Islands are also part of Tokyo.
+        </p>
+    </div>
+    <div>
+        <p>
+            Prior to 1868, Tokyo was known as Edo. A small castle town in the 16th century, Edo became Japan's
+            political center in 1603 when Tokugawa Ieyasu established his feudal government there. A few decades later,
+            Edo had grown into one of the world's most populous cities. With the Meiji Restoration of 1868, the emperor
+            and capital moved from Kyoto to Edo, which was renamed Tokyo ("Eastern Capital"). Large parts of Tokyo were
+            destroyed in the Great Kanto Earthquake of 1923 and in the air raids of 1945.
+        </p>
+    </div>
+    <div>
+        <p>
+            today, Tokyo offers a seemingly unlimited choice of shopping, entertainment, culture and dining to its
+            visitors. The city's history can be appreciated in districts such as Asakusa and in many excellent museums,
+            historic temples and gardens. Contrary to common perception, Tokyo also offers a number of attractive green
+            spaces in the city center and within relatively short train rides at its outskirts.
+        </p>
+    </div>
+
+    <form>
+        <div>
+            <p>
+                What do you thing at tokio?
+            </p>
+        </div>
+        <label>
+            <div id="checkbox">
+                <input type="radio" name="touris" id="1er">tourism<br>
+                <input type="radio" name="touris" id="1er">bussines<br>
+                <input type="radio" name="touris" id="1er">stay to live<br>
+            </div>
+            <input type="checkbox" name="touris" id="1er" checked>you accept the terms and conditions<br>
+
+            <input type="text" placeholder="where are you from?">
+            <input type="submit" name="submit" id="1er">
+        </label>
+
+    </form>
+    <form>
+        <p> give me your information</p>
+        <label for="cotact">
+            <input id="contact" type="text" placeholder="fisrt Name">
+            <input id="contact" type="text" placeholder="Last Name">
+            <input id="contact" type="text" placeholder="mobile phone"><br>
+            <input id="contact" type="submit" name="submit" id="1er">
+
+
+        </label>
+
+    </form>
+</body>
+
+</html>
